@@ -10,6 +10,8 @@
 * run `update-grub`
 * reboot
 * import xml to virt-manager or virtsh, you need to create VM disk yourself
+* modify the PCI host device ids to the ones of your VGA and Audio
+* guest VGA and Audio device pci ids should on a same `bus`, just `function` different, like it is in the host
 * enable qxl
 * start vm, test and fix radeon reset bug in vm
   * [debian fix](/debian-guest/README.md)
