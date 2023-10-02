@@ -1,0 +1,3 @@
+
+# add this to fix amdgpu screen flickring
+GRUB_CMDLINE_LINUX="amdgpu.sg_display=0"
