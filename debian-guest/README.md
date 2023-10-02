@@ -1,6 +1,6 @@
 # debian fix
 
-* old kernel version like 5.15 does not recognize Raphal GPU, you need to upgrade to new kernel, or add pci id into old kernel and rebuild
+* old kernel version like 5.15 does not recognize Raphael GPU, you need to upgrade to new kernel, or add pci id into old kernel and rebuild
 * copy files in `debian-guest/` to your guest
 * to fix gpu connected display flickring, add `amdgpu.sg_display=0` to kernel commandline
 * vendor-reset (not necessary for kernel >= 6.5)

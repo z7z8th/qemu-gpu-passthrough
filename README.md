@@ -1,4 +1,4 @@
-# AMD Ryzen 7000 iGPU Raphal Qemu Passthrough
+# AMD Ryzen 7000 iGPU Raphael Qemu Passthrough
 
 ## Steps
 
