@@ -12,11 +12,14 @@
 * import xml to virt-manager or virtsh, you need to create VM disk yourself
 * enable qxl
 * start vm, test and fix radeon reset bug in vm
+  * [debian fix](/debian-guest/README.md)
+  * [win11 fix](/win11-guest/README.md)
 * shutdown vm
 * disable qxl
 * start vm, redirect usb keyboard and mouse to vm
 * switch to the physical display that the iGPU connected
-* happy test.
+* unplug your mouse physically and switch your display physically to switch back to your host pc
+* happy testing.
 
 ## Tips
 
